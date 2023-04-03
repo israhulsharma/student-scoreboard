@@ -1,0 +1,78 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+body{
+  background-color: #1B244A ;
+}
+
+.container{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.item{
+margin: 25px;
+}
+
+
+h1{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #ddf1f7;
+  text-align: center;
+  margin-top: 55px;
+  font-size: 2em;
+}
+
+h2 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #EEEEEE;
+  font-size: 2.5em;
+  text-align: center;
+}
+
+p#whoIsWinning{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #EEEEEE;
+  font-size: 1.8em;
+  margin: auto;
+  text-align: center;
+}
+
+.score{
+  font-family: 'Cursed Timer ULiL', 'Roboto Mono',  sans-serif;
+  margin: 25px auto ;
+  font-size: 5.5em;
+  padding: 15px;
+  text-align: center;
+  color: #F94F6D;
+  width: 155px;
+  height: 120px;
+  background-color: #080001 ;
+  
+}
+
+button{
+  font-family: 'Cursed Timer ULiL', 'Roboto Mono', sans-serif;
+  color: #9AABD8;
+  background-color: transparent;
+  border:#9AABD8 solid 2px;
+  width: 45px;
+  height: 45px;
+  border-radius: 5px;
+  margin: 5px;
+}
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
