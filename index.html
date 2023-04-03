@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="description" content="This is where your description goes" />
+    <meta name="keywords" content="one, two, three" />
+
+    <title>Title in the tab</title>
+    <style>
+      @import url("https://fonts.cdnfonts.com/css/cursed-timer-ulil");
+    </style>
+    <!-- external CSS link -->
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <main>
+      <h1>Student's Team Scoreboard</h1>
+
+      <div class="container">
+        <div class="home item">
+          <h2>HOME</h2>
+          <p class="score" id="home-scoreboard">0</p>
+          <button class="add-score" id="add1-home" onclick="add1toHome()">
+            +1
+          </button>
+          <button class="add-score" id="add2-home" onclick="add2toHome()">
+            +2
+          </button>
+          <button class="add-score" id="add3-home" onclick="add3toHome()">
+            +3
+          </button>
+        </div>
+
+        <div class="guest item">
+          <h2>GUEST</h2>
+          <p class="score" id="guest-scoreboard">0</p>
+          <button class="add-score" id="add1-guest" onclick="add1toGuest()">
+            +1
+          </button>
+          <button class="add-score" id="add2-guest" onclick="add2toGuest()">
+            +2
+          </button>
+          <button class="add-score" id="add3-guest" onclick="add3toGuest()">
+            +3
+          </button>
+        </div>
+      </div>
+      <p id="whoIsWinning"></p>
+    </main>
+    <script type="text/javascript" src="js/main.js"></script>
+  </body>
+</html>
